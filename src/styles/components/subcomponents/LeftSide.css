@@ -8,9 +8,26 @@
     font-weight: lighter;
 }
 
-.left-side img{
+.photo{
     width: 150px;
     height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.social-medias-centered{
+    display: flex;
+    justify-content: center;
+}
+
+.social-medias{
+    width: 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.github, .linkedin, .malt, .facebook{
+    width: 24px;
     object-fit: cover;
     border-radius: 50%;
 }
