@@ -1,0 +1,17 @@
+html, body{
+  scroll-behavior: smooth;
+  width: 99vw;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Quicksand', sans-serif;
+  background-image: url("../../public/img/milkyway.webp");
+  background-attachment: fixed;
+  opacity: 0.9;
+  background-position: 50% 30%;
+  background-size: cover;
+}

@@ -1,0 +1,11 @@
+.tailwind{
+    animation: circle-tailwind 2s forwards;
+    grid-area: grid-tailwind;
+  }
+  
+  
+  @keyframes circle-tailwind{
+    to{
+      stroke-dashoffset: 44;
+    }
+  }

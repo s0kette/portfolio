@@ -1,0 +1,13 @@
+.css{
+  stroke: #2965f1;
+  animation: circle-css 2s forwards;
+  grid-area: grid-css;
+}
+
+  
+  
+@keyframes circle-css{
+  to{
+    stroke-dashoffset: 88;
+  }
+}

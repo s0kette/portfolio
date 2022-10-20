@@ -1,0 +1,11 @@
+.node{
+    animation: circle-node 2s forwards;
+    grid-area: grid-node;
+  }
+  
+  
+  @keyframes circle-node{
+    to{
+      stroke-dashoffset: 330;
+    }
+  }

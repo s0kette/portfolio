@@ -1,0 +1,51 @@
+.skills{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+}
+
+section.skills{
+    color: rgb(202, 202, 202);
+    background-color: #22252c;
+    padding-top: 100px;
+}
+
+.skills h2{
+    margin: 0;
+    font-size: 30px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.svg-box{
+    padding: 5px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill-name-percent{
+    position: absolute;
+    text-align: center;
+}
+
+svg{
+    height: 150px;
+    width: 150px;
+}
+
+svg circle{
+    fill: none;
+    stroke-width: 5px;
+    transform: translate(5px, 5px);
+    stroke-linecap: round;
+    stroke-dasharray: 440;
+    stroke-dashoffset: 440;
+}
+
+.skills-circles{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+}

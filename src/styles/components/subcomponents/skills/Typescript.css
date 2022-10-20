@@ -1,0 +1,12 @@
+.typescript{
+  stroke: #007aac;
+  animation: circle-ts 2s forwards;
+  grid-area: grid-ts;
+}
+
+
+@keyframes circle-ts{
+  to{
+    stroke-dashoffset: 220;
+  }
+}

@@ -1,0 +1,12 @@
+.javascript{
+  stroke: #f7df1e;
+  animation: circle-js 2s forwards;
+  grid-area: grid-js;
+}
+
+
+@keyframes circle-js{
+  to{
+    stroke-dashoffset: 110;
+  }
+}

@@ -1,0 +1,12 @@
+.firebase{
+  stroke: #ffa611;
+  animation: circle-firebase 2s forwards;
+  grid-area: grid-firebase;
+}
+  
+  
+@keyframes circle-firebase{
+  to{
+    stroke-dashoffset: 110;
+  }
+}

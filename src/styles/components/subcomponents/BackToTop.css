@@ -1,0 +1,11 @@
+.back-to-top{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    color: rgb(202, 202, 202);
+    background-color: #22252c;
+}
+
+.back-to-top span{
+    font-size: 60px;
+}

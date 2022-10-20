@@ -1,0 +1,11 @@
+.next{
+    animation: circle-next 2s forwards;
+    grid-area: grid-next;
+  }
+  
+  
+  @keyframes circle-next{
+    to{
+      stroke-dashoffset: 220;
+    }
+  }

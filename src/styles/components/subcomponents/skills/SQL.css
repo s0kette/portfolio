@@ -1,0 +1,12 @@
+.sql{
+  stroke: #f29111;
+  animation: circle-sql 2s forwards;
+  grid-area: grid-sql;
+}
+
+
+@keyframes circle-sql{
+  to{
+    stroke-dashoffset: 176;
+  }
+}

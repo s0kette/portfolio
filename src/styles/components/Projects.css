@@ -1,0 +1,60 @@
+.my-projects{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    color: rgb(202, 202, 202);
+    background-color: #22252c;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.my-projects h2{
+    margin: 0;
+    font-size: 30px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.website-thumbnail{
+    width: 100%;
+    height: 100%;
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+}
+
+.website-thumbnail img{
+    width: 350px;
+    filter: grayscale(100%);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.netflix, .guessthequotes, .frenchcuts, .grandspirit{
+    width: auto;
+    height: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link{
+    width: 400px;
+    height: 230px;
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid rgb(202, 202, 202);
+}
+
+.link p{
+    margin: 0;
+}
+
+.website-thumbnail a:hover > img{
+    filter: grayscale(0%);
+}

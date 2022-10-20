@@ -1,0 +1,12 @@
+.php{
+  stroke: #787cb5;
+    animation: circle-php 2s forwards;
+    grid-area: grid-php;
+  }
+  
+  
+  @keyframes circle-php{
+    to{
+      stroke-dashoffset: 176;
+    }
+  }

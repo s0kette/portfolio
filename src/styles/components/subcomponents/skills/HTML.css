@@ -1,0 +1,12 @@
+.html{
+  stroke: #f06529;
+  animation: circle-html 2s forwards;
+  grid-area: grid-html;
+}
+
+
+@keyframes circle-html{
+  to{
+    stroke-dashoffset: 44;
+  }
+}

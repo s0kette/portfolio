@@ -1,0 +1,27 @@
+.about-me{
+    height: 90vh;
+    color: rgb(202, 202, 202);
+    background-color: #22252c;
+    padding-top: 100px;
+}
+
+.about-me h2{
+    margin: 0;
+    font-size: 30px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.quiz-link{
+    margin: 0;
+    text-align: center;
+}
+
+.quiz-link a{
+    text-decoration: underline;
+}
+
+.both-sides{
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,16 @@
+.left-side{
+    margin-top: 100px;
+    width: 20%;
+    height: 500px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: lighter;
+}
+
+.left-side img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}

@@ -1,0 +1,12 @@
+.laravel{
+  stroke: #fb503b;
+  animation: circle-laravel 2s forwards;
+  grid-area: grid-laravel;
+}
+
+
+@keyframes circle-laravel{
+  to{
+    stroke-dashoffset: 220;
+  }
+}

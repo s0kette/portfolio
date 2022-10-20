@@ -1,0 +1,12 @@
+.react{
+  stroke: #61DBFB;
+  animation: circle-react 2s forwards;
+  grid-area: grid-react;
+}
+
+
+@keyframes circle-react{
+  to{
+    stroke-dashoffset: 176;
+  }
+}
