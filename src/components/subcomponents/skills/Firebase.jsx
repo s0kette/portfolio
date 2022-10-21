@@ -7,7 +7,7 @@ function Firebase() {
         <svg><circle className='firebase' cx="70px" cy="70px" r="70px"></circle></svg>
         <div className='skill-name-percent'>
           <p>Firebase</p>
-          <p>75%</p>
+          <p>60%</p>
         </div>
     </div>
   )
