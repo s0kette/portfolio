@@ -5,7 +5,10 @@ import LanguageButton from './subcomponents/LanguageButton'
 function Navbar() {
   return (
     <nav>
-        <h1>OtR</h1>
+        <a href="#header">
+            <h1>OtR</h1>
+        </a>
+
         <ul>
             <a href="#about-me" className='list'>
                 <li>A propos de moi</li>
