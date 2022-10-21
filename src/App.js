@@ -1,22 +1,17 @@
-import Navbar from "./components/Navbar";
-import Header from "./components/Header";
-import AboutMe from "./components/AboutMe";
 import "./styles/App.css";
-import Skills from "./components/Skills";
-import BackToTop from "./components/subcomponents/BackToTop";
-import Projects from "./components/Projects";
-import Footer from "./components/Footer";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import HomeFr from "./pages/HomeFr";
+import HomeEn from "./pages/HomeEn";
 
 function App() {
     return (
         <div className="App">
-            <Navbar />
-            <Header />
-            <AboutMe />
-            <Skills />
-            <Projects />
-            <Footer />
-            <BackToTop />
+            <BrowserRouter>
+                <Routes>
+                    <Route path="/" element={<HomeFr />} />
+                    <Route path="/en" element={<HomeEn />} />
+                </Routes>
+            </BrowserRouter>
         </div>
     );
 }

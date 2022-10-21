@@ -19,6 +19,10 @@ function Navbar() {
                 <li>Mes projets</li>
             </a>
 
+            <a href="/en">
+                <img src="./img/english-flag.png" alt="" />
+            </a>
+
             <LanguageButton/>
         </ul>    
     </nav>

@@ -1,7 +1,7 @@
 import React from 'react'
 import "../../styles/components/subcomponents/RightSide.css"
 
-function RightSide() {
+function RightSideFr() {
   return (
     
         <article className="right-side">
@@ -28,4 +28,4 @@ function RightSide() {
     )
 }
 
-export default RightSide
+export default RightSideFr
