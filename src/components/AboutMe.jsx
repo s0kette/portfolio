@@ -11,7 +11,7 @@ function AboutMe() {
           <LeftSideFr/>
           <RightSideFr/>
         </div>
-        <p className='quiz-link'>Pour en découvrir un petit peu plus sur moi, je vous propose un petit quiz <a href="#quiz">ici</a></p>
+        {/* <p className='quiz-link'>Pour en découvrir un petit peu plus sur moi, je vous propose un petit quiz <a href="#quiz">ici</a></p> */}
     </section>
   )
 }

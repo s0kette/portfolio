@@ -11,7 +11,7 @@ function AboutMeEn() {
           <LeftSideEn/>
           <RightSideEn/>
         </div>
-        <p className='quiz-link'>To know a bit more about me, you can play to a quiz game <a href="#quiz">here</a></p>
+        {/* <p className='quiz-link'>To know a bit more about me, you can play to a quiz game <a href="#quiz">here</a></p> */}
     </section>
   )
 }
