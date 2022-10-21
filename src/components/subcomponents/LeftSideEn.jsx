@@ -11,7 +11,7 @@ function LeftSideEn() {
 
       <a href="mailto:otter.tp@gmail.com"><p>otter.tp@gmail.com</p></a>
 
-      <p>After 10 years as a maintenance technician, I have done a professional retraining as a developer </p>
+      <p>After 10 years as a maintenance technician, I have done a professional retraining to become a developer </p>
 
       <div className='social-medias-centered'>
         <div className='social-medias'>
