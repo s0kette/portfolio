@@ -4,7 +4,10 @@ import "../../styles/components/Navbar.css"
 function NavbarEn() {
   return (
     <nav>
-        <h1>OtR</h1>
+        <a href="#header">
+            <h1>OtR</h1>
+        </a>
+        
         <ul>
             <a href="#about-me" className='list'>
                 <li>About Me</li>
