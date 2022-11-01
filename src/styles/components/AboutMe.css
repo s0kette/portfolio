@@ -1,5 +1,6 @@
 .about-me{
     height: 90vh;
+    min-height: 600px;
     color: rgb(202, 202, 202);
     background-color: #22252c;
     padding-top: 100px;

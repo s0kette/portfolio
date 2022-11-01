@@ -1,7 +1,9 @@
 .skills{
     height: 90vh;
+    min-height: 600px;
     display: flex;
     flex-direction: column;
+    padding-bottom: 100px;
 }
 
 section.skills{
