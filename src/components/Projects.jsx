@@ -23,14 +23,14 @@ function Projects() {
             <div className='frenchcuts'>
                 <a className='link' href="https://www.french-cuts.com" target="_blank" rel="noreferrer">
                     <img src="./img/FrenchCuts.png" alt="" />
-                    <p>Site vitrine d'un barbier à Chicago</p>
+                    <p>Site vitrine d'un barbier à Chicago (mobile responsive)</p>
                 </a>
             </div>
 
             <div className='grandspirit'>
                 <a className='link' href="https://grandspirit.vercel.app/" target="_blank" rel="noreferrer">
                     <img src="./img/GrandSpirit.png" alt="" />
-                    <p>Site vitrine d'une équipe e-sportive</p>
+                    <p>Site vitrine d'une équipe e-sportive (mobile responsive)</p>
                 </a>
             </div>
 
