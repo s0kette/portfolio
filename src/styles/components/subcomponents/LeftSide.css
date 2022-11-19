@@ -31,3 +31,25 @@
     object-fit: cover;
     border-radius: 50%;
 }
+
+@media (max-width: 576px){
+
+    .left-side{
+        width: auto;
+        height: auto;
+        text-align: left;
+        padding: 0px 20px;
+    }
+
+    .social-medias-centered{
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .social-medias{
+        width: 200px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+}

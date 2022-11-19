@@ -26,3 +26,22 @@
     display: flex;
     justify-content: space-between;
 }
+
+@media (max-width: 576px){
+
+    .about-me{
+        height: auto;
+        color: rgb(202, 202, 202);
+        background-color: #22252c;
+        padding-top: 100px;
+    }
+
+    .about-me h2{
+        text-align: left;
+        padding-left: 20px;
+    }
+
+    .both-sides{
+        display: block;
+    }
+}

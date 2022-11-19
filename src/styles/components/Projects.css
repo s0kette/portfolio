@@ -57,3 +57,37 @@
 .website-thumbnail a:hover > img{
     filter: grayscale(0%);
 }
+
+@media (max-width: 576px){
+
+    .my-projects{
+        height: auto;
+    }
+
+    .my-projects h2{
+        margin-bottom: 50px;
+        padding: 0px 20px;
+        text-align: left;
+    }
+
+    .website-thumbnail img{
+        width: 250px;
+        filter: grayscale(100%);
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .website-thumbnail{
+        width: auto;
+        height: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 50px;
+    }
+
+    .link{
+        width: auto;
+        height: auto;
+        margin: 0px 20px;
+    }
+}

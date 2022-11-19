@@ -17,3 +17,14 @@ body{
   background-position: 50% 30%;
   background-size: cover;
 }
+
+@media (max-width: 576px){
+
+  html{
+    width: 101vw;
+  }
+
+  body{
+    width: 100%;
+  }
+}

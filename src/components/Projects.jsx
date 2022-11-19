@@ -16,7 +16,7 @@ function Projects() {
             <div className='guessthequotes'>
                 <a className='link' href="https://guessthequotes.vercel.app/" target="_blank" rel="noreferrer">
                     <img src="./img/GuesstheQuotes.png" alt="" />
-                    <p>Prototype d'un quiz sur le cinéma</p>
+                    <p>Prototype d'un quiz sur le cinéma (mobile responsive)</p>
                 </a>
             </div>
 
