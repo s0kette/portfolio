@@ -8,7 +8,7 @@ function RightSideEn() {
             <div className="right-side-flex">
                 <div className='projects'>
                     <h4>My current projects</h4>
-                    <p>A quiz game for the web and mobile devices (iOS et Android)</p>
+                    <p>A quiz game for the web and mobile devices (iOS and Android)</p>
                     <p>A game library website</p>
                 </div>
 
