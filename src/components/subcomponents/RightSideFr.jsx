@@ -14,7 +14,7 @@ function RightSideFr() {
 
                 <div className='diplomas'>
                     <h4>Mes derniers diplômes</h4>
-                    <p>2022 : Titre Professionnel - Développeur Web/ Web Mobile</p>
+                    <p>2022 : Titre Professionnel (Bac +2) - Développeur Web/ Web Mobile</p>
                     <p>2012 : BTS Electrotechnique</p>
                 </div>
 
