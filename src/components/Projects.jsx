@@ -10,6 +10,7 @@ function Projects() {
                 <a className='link' href="https://netflix-nextjs-six.vercel.app/login" target="_blank" rel="noreferrer">
                     <img src="./img/Netflix.png" alt="" />
                     <p>Reproduction de Netflix, avec une inscription/connexion</p>
+                    <p className='stack'>Next.js - Typescript - TailwindCSS - Firebase</p>
                 </a>
             </div>
 
@@ -17,6 +18,7 @@ function Projects() {
                 <a className='link' href="https://guessthequotes.vercel.app/" target="_blank" rel="noreferrer">
                     <img src="./img/GuesstheQuotes.png" alt="" />
                     <p>Prototype d'un quiz sur le cinéma (mobile responsive)</p>
+                    <p className='stack'>Next.js - Typescript - TailwindCSS - Firebase - Redux Toolkit</p>
                 </a>
             </div>
 
@@ -24,6 +26,7 @@ function Projects() {
                 <a className='link' href="https://www.french-cuts.com" target="_blank" rel="noreferrer">
                     <img src="./img/FrenchCuts.png" alt="" />
                     <p>Site vitrine d'un barbier à Chicago (mobile responsive)</p>
+                    <p className='stack'>ReactJS - Javascript - CSS</p>
                 </a>
             </div>
 
@@ -31,6 +34,7 @@ function Projects() {
                 <a className='link' href="https://grandspirit.vercel.app/" target="_blank" rel="noreferrer">
                     <img src="./img/GrandSpirit.png" alt="" />
                     <p>Site vitrine d'une équipe e-sportive (mobile responsive)</p>
+                    <p className='stack'>ReactJS - Javascript - CSS</p>
                 </a>
             </div>
 

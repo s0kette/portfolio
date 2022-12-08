@@ -52,6 +52,12 @@
 
 .link p{
     margin: 0;
+    white-space: nowrap;
+}
+
+.stack{
+    font-size: small;
+    color: rgb(167, 167, 167);;
 }
 
 .website-thumbnail a:hover > img{
