@@ -96,4 +96,8 @@
         height: auto;
         margin: 0px 20px;
     }
+
+    .link p{
+        white-space: inherit;
+    }
 }
